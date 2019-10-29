@@ -1,0 +1,62 @@
+*, html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+  
+}
+body{
+    background-color: #0d6994;
+}
+.navbar{
+    background-color: #1a233f;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+.site-menu,.social-menu, .nav-link{
+    color: white;
+}
+
+.site-menu,.social-menu, .nav-link:hover{
+    float: right;
+    color:  #4a64b1;
+    
+}
+
+.header{
+    background-color: #0d6994;
+    height: 90px;
+    padding-top: 10px;
+   
+}
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #710f0f;
+}
+.welcome{
+    background-color: #0d6994;
+    height: 190px;
+}
+.aboutMe h1{
+    display: flex;
+    color: white;
+    padding-top: 20px;
+    margin-right: 200px;
+    float: left;
+}
+
+.card-deck{
+    background-color: #0d6994;
+    padding-top: 20px;
+}
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+} 
+

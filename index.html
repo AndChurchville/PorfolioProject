@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Varela+Round&display=swap" rel="stylesheet">
+
     <title>Andrea Churchville Portfolio</title>
 </head>
 <body>
@@ -19,77 +21,138 @@
                     <a class="nav-link" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#project-section">Projects</a>
                   </li>
                 </ul>
                 <!-- site nav end -->
                 <!-- social nav start -->
                 <ul class="navbar-nav navbar-right social-menu ">
                         <li class="nav-item">
-                          <a class="nav-link" href="https://www.linkedin.com/in/andchurchville/">LinkedIn</a>
-                        </li>
-                        <li class="nav-item">
                           <a class="nav-link" href="mailto:andchurchville@gmail.com">Email</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="https://twitter.com/AndChurchville">Twiiter</a>
+                          <a class="nav-link" href="https://www.linkedin.com/in/andchurchville/">LinkedIn</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="https://twitter.com/AndChurchville">Twitter</a>
                         </li>
                       </ul>
                 <!-- social nav end -->
               </nav>
+
+              <div class="col-sm-12 text-center">
+            
+                <h1>Welcome</h1>
+    
+            
+          </div>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12 welcome">
-                <div class="aboutMe">
-                <h1 class="display-3">Welcome</h1>
+       <!--First part of page. Shows Welcome objective -->
+         
+        
+
+        <div class="row about-me" id="about"><!--about me start-->
+          <div class="col-sm-2">
+              <img class="img-fluid rounded" src="https://res.cloudinary.com/drea/image/upload/c_scale,w_232/v1575752315/Portfolio%20images/profile-image.jpg" alt="profile image">
+          </div>
+          <div class="col-sm-4">
+            <h1 class="text-center text-light">About Me</h1>
+            <h2 class="text-center blurb"> Recently enrolled in a web development program with hands on experience with JavaScript, HTML/CSS, and Web Design. Highly motivated and determined to become an  exceptional Front End Web Developer for your organization. </h2>
+          </div>
+        </div><!--about me end-->
+
+        <div class="row projects"><!--Project section. A card deck of projects. Should link to a GitHub.-->
+            <div class="col-sm-12 project-header" id="project-section"><h1 class="text-center">Projects</h1></div>
+            <div class="row">
+              <div class="card-deck px-5">
+                <div class="card border-0">
+                  <a href='https://vigilant-kilby-c337af.netlify.com'>
+                    <img src="https://res.cloudinary.com/drea/image/upload/v1575866929/Portfolio%20images/dashboard-image-cropped_lmiqqv.jpg" class="card-img-top"/> 
+                  </a>
+                  <div class="card-body">
+                    <h5>Dashboard</h5>
+                    <p class="card-text">Dashboard Project that provides progress of projeccts and calendar. Made with HTML and CSS Grid.</p>
+                  </div>
+                </div><!--end card-->
+                <div class="card border-0">
+                    <a href='https://fervent-bose-fbc3b5.netlify.com'>
+                      <img src="https://res.cloudinary.com/drea/image/upload/v1573571670/Portfolio%20images/game-image_r0xi18.jpg" class="card-img-top"/> 
+                    </a>
+                    <div class="card-body">
+                      <h5>Rock Paper Scissors Boom!</h5>
+                      <p class="card-text">Rock Paper Scissor game made with JavaScript and HTML/CSS.</p>
+                    </div>
+                  </div><!--end card-->
+                  <div class="card border-0">
+                      <a href='https://github.com/AndChurchville/Tech901-Form-Assignment'>
+                        <img src="https://res.cloudinary.com/drea/image/upload/c_scale,w_525/v1573588893/Portfolio%20images/signup-image.jpg" class="card-img-top"/> 
+                      </a>
+                      <div class="card-body">
+                        <h5>Register Form</h5>
+                        <p class="card-text">Static Registration form made with HTML and CSS Grid. </p>
+                      </div>
+                    </div><!--end card-->
                 </div>
             </div>
-        </div>
 
-        <!--Project section-->
-        <div class="row cards">
-            <div class="card-deck">
-                    <div class="card">
-                            <img src="https://res.cloudinary.com/drea/image/upload/v1569516905/SPRITE/podcast_tile_luz9av.jpg" class="card-img-top" alt="Sprite image">
-                            <div class="card-body">
-                                <h5 class="card-title">Sprite Remix</h5>
-                                <p class="card-text">Recreation of the Sprite Website using CSS Flexbox and postioning.</p>
-                                <a href="#" class="btn btn-success">GitHub</a>
-                            </div>
-                            </div>
-                    <div class="card">
-                            <img src="/images/signup-image.jpg" class="card-img-top" alt="Sign Up Image">
-                            <div class="card-body">
-                                <h5 class="card-title">Sign Up Project</h5>
-                                <p class="card-text">Creation of a registration page using HTML, CSS, And CSS Flexbox.</p>
-                                <a href="#" class="btn btn-success">Project Details</a>
-                            </div>
-                            </div>
-                    <div class="card">
-                            <img src="https://res.cloudinary.com/drea/image/upload/v1569516905/SPRITE/podcast_tile_luz9av.jpg" class="card-img-top" alt="Sprite image">
-                            <div class="card-body">
-                                <h5 class="card-title">Sprite Remix</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-success">GitHub</a>
-                            </div>
-                            </div>
-                    <div class="card">
-                            <img src="/images/dashboard-image.jpg" class="card-img-top" alt="Image of dashboard project">
-                            <div class="card-body">
-                                <h5 class="card-title">Dashboard</h5>
-                                <p class="card-text">A multipage dashboard made with CSS Grid showcasing user's current projects, calendar, and profile</p>
-                                <a href="#" class="btn btn-success">GitHub</a>
-                            </div>
-                            </div>
-               
-            </div>
-        </div>
+
+
+            <div class="row">
+                <div class="card-deck px-5">
+                  <div class="card border-0">
+                    <a href='#'>
+                      <img src="https://res.cloudinary.com/drea/image/upload/c_scale,w_760/v1575983980/Portfolio%20images/hungry-city_rdn0b5.jpg" class="card-img-top"/> 
+                    </a>
+                    <div class="card-body">
+                      <h5>Hungry City (Yelp App)</h5>
+                      <p class="card-text">React App with Yelp API. User is able to search food businnesses.</p>
+                    </div>
+                  </div><!--end card-->
+                  <div class="card border-0">
+                      <a href='https://github.com/AndChurchville/Future-vision'>
+                        <img src="https://res.cloudinary.com/drea/image/upload/v1575988486/Portfolio%20images/compy_kbywpb.jpg" class="card-img-top"/> 
+                      </a>
+                      <div class="card-body">
+                        <h5>How About This Design? - Cartoon Style</h5>
+                        <p class="card-text">Webpage contribution to another's project. Made with HTML and CSS. </p>
+                      </div>
+                    </div><!--end card-->
+                    <div class="card border-0">
+                        <a href='https://github.com/AndChurchville/ObeyYourThirst'>
+                          <img src="https://res.cloudinary.com/drea/image/upload/v1568905409/SPRITE/hero_new_s6jer6.jpg" class="card-img-top"/> 
+                        </a>
+                        <div class="card-body">
+                          <h5>Sprite Remix</h5>
+                          <p class="card-text">Recreation of the Sprtie website using HTML and CSS s </p>
+                        </div>
+                      </div><!--end card-->
+                  </div>
+              </div>
+
+
+
+
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          </div><!--Projects row end-->
+        
+      </div><!--Container End-->
             
 
-    </div>
+    
     
 </body>
 </html>

@@ -6,11 +6,11 @@
   
 }
 body{
-    background-color: #1A535C;
+    background-color: #273A52;
 }
 /* Header bar: Shows name, page navigation, contact navigation */
 .navbar{
-    background-color:#1A535C;
+    background-color: #005d9b;
     text-align: center;
     font-weight: bold;
     font-family: 'Varela Round', sans-serif;
@@ -21,19 +21,26 @@ body{
     color: white;
     font-weight: bold;
 }
+.navbar-brand h3{
+    padding:0;
+}
 .main-navbar, .nav-link {
     color: white;
+}
+.main-navbar:hover, .nav-link:hover {
+    color:#ffc368;
 }
 /*end navigation */
 
 .about-me{
-    background-color: #84DCC6;
+    background-color: #141316;
     padding-top:50px
     
 }
-.blurb h1, h3{
+.blurb{
     text-align: center;
     font-size: 5rem;
+    color: whitesmoke;
 
 
 }
@@ -61,7 +68,7 @@ body{
 
 .img-fluid{
     width: 100%;
-    border: 1.5px solid white;
+    border: 2px solid #964762;
 
 
 }
@@ -71,7 +78,7 @@ body{
     padding-bottom: 50px;
 }
 .blurb{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .project-header{
     background-color:#ffc368;
@@ -83,8 +90,9 @@ body{
 
 
 .card-deck{
-    background-color:#1A535C;
+    background-color: #273A52;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .card-img-top {
     width: 50%;
@@ -106,14 +114,23 @@ body{
 }
 
 .card:hover {
-    background-color: #A5FFD6;
+    background-color: #ffc368;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #324d46;
 }
 .card-body:hover h5, .card-body:hover a{
     background-color: #A5FFD6;
-    color:#06420b;
     text-decoration: none;
+}
+.footer{
+    padding: 20px;
+    background-color: #005d9b;
+    
+    
+}
+.footer p{
+    color:whitesmoke;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
